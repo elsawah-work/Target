@@ -1,7 +1,7 @@
 // JavaScript code to block unauthorized domains and prevent debugging tools
 (function () {
     // Allowed domains
-    const allowedDomains = ["example.com", "example.org", "example.net"];
+    const allowedDomains = ["elsawah-work.github.io", "example.org", "example.net"];
 
     // Check if the current domain is allowed or running locally with explicit inclusion
     const currentDomain = window.location.hostname;
